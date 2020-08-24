@@ -2,16 +2,16 @@
 
 # Customer Service Sentiment Prediction
 
-> Predicting customer emotion in on-line service interactions. Addtionally, we look into the sentiment of customer service twitter messages directed toward top U.S airlines. 
+> Predicting customer emotion in on-line service interactions. We look into the sentiment of customer service twitter messages directed toward the top U.S airlines. 
 > Tags: Text Classification, Sentiment Analysis, NLP, NLTK, Scikitlearn
 
 ![here](images/banner3.png) 
 
 ## Twitter Triage
 
-When it comes to manaing customer service interactions on Twitter,  the platfrom can be unforgiving. If your reps aren't equipped to handle customer demand, or aren't sure how to communicate on Twitter, you can harm your customer experience and lead your brand to negative buzz. 
+When it comes to manaing customer service interactions on Twitter, the platfrom can be unforgiving. If your reps aren't equipped to handle customer demand, or aren't sure how to communicate on Twitter, it may harm your customer experience and lead your brand to receive upset followers. 
 
-When requests come in, it’s important to have a plan to triage them. The brands that are thriving in social customer care on Twitter (Amazon, Buffer, Starbucks, UPS) have common charactersitics where you'll find their replies to be prompt, unique, signed, and helpful. 
+When requests come in through Twitter, it’s important to have a plan to triage them. The brands that are thriving in social customer care on Twitter (Amazon, Buffer, Starbucks, UPS) have common charactersitics where you'll find their replies to be prompt, unique, signed, and helpful. 
 
 ## Project Scenario
 
