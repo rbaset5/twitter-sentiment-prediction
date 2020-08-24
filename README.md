@@ -101,8 +101,8 @@ said data to properly feed to our ML model for interpretation. A later section e
 
 ## Data 
 
-The data was scraped by CrowdFlower (now Figure Eight, a ML company) which includes all tweets and it's messages 
-addressed at US airlines in the month of of February 2015. Human contributors then categorised each tweet according to 
+The data was scraped by CrowdFlower (now Figure Eight, a ML company) which includes all tweets and it's corresponding messages 
+addressed at US airlines in February, 2015. Human contributors then categorised each tweet according to 
 the sentiment (positive, negative) from a crowsource marketplace. The dataset is hosted on Kaggle, 
 https://www.kaggle.com/crowdflower/twitter-airline-sentiment. 
 
