@@ -15,9 +15,9 @@ When requests come in through Twitter, it’s important to have a plan to triage
 
 ## Project Scenario
 
-When it comes to customer service on Twitter friendliness and personalisation are just as important as speed. Brands incorporating these practices into their Twitter customer service often have positive results. 
+In any customer service scenario on Twitter, friendliness and personalisation are just as important as speed. Brands incorporating these practices into their Twitter customer service, often have positive results. 
 
-When it comes to speed, can we build a model that aids a team in decreasing the time needed to respond to an initial customer service message from a user. We are using a dataset containing 14,000 customer service tweets labeled by emotional polarity data to speed response time for customer service tweets. In addition to the model, a intermediary tool would be required (outside of scope) to serve the twitter messages to the appropriate contact. 
+With regard to speed, can we build a model that aids a team in decreasing the time needed to respond to an initial customer service message. We are using a dataset containing 14,000 customer service tweets labeled by emotional polarity data to speed response time for customer service tweets. 
 
 ## Project Struture
 
