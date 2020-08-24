@@ -79,15 +79,13 @@ Twitter has found that 71% of Twitter users expect a brand to respond to their q
 
 ## Project Goals
 
-The questions I want to answer:
-
-(1) Provide insights  from conducting sentiment analysis on customer service messages.
+(1) To better understand customer service sentiment of US airlines on TWitter.
 
 (2) Develop a model that automatically detects customer emotional polarity in on-line service interactions with an accuracy of at least 90% and to show that good prediction is possible. 
 
 ## Approach
 
-In this project, the target variable that represents the emotional parity is the airline sentiment feature, originally negative, netural, and positive, and later turned into a binary classification problem between negative and positive to reduce noise from neutral. The data shrinks from it's original size of 14k to approximately 10k after re-classification. 
+In this project, the target variable that represents the emotional parity is 'airline sentiment' which can be either negative, netural, or positive. I later turned the classification to binary as negative or positive to reduce noise generated from neutral. The data shrinks from it's original size of 14k to approximately 10k after re-classification. 
 Tweets labeled as positive make up approximately 20 percent of the target variable. 
 <br />
 <br />
