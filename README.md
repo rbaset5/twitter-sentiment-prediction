@@ -73,9 +73,9 @@ If on the technical side, please check out:
 
 ## Business Understanding
 
-For some people Twitter is the first place they go to for customer service. It may be about problems, complaints they need addressed, or questions answered, or it may be about saying Thank You for great service and getting help with a pressing issue. Twitter's research has found that users are most likely to use Twitter as a customer service channel fro retail and travel. As many as 40% of those who recently used the platform for customer service had done some for retail; 33% for travel and 28% for telecoms[1]. 
+For some people Twitter is the first place they go to for customer service. It may be about problems, complaints they need addressed, questions answered, or saying Thank You for service and support. Twitter's research has found that users are most likely to use Twitter as a customer service channel for retail and travel. As many as 40% of those who recently used the platform for customer service had done some for retail; 33% for travel and 28% for telecoms[1]. 
 
-Twitter has found that 71% of Twitter users expect a brand to respond to their query within an hour of Tweeting. For many companies that is not proving an issue. Twitter's study showed that 63% of users who Tweeted a brand about customer service had a response within an hour. Over a third of them had a response within 30 mins. It's imperative therfore for brands who don't have quick response times to develop systems in place to continously meet customer service demands. 
+Twitter has found that 71% of Twitter users expect a brand to respond to their query within an hour of Tweeting. For most companies, this hasn't proven to be an issue. Twitter's study showed that 63% of users who Tweeted a brand about customer service had a response within an hour. Over a third of them had a response within 30 mins. It's imperative therfore for brands who don't have quick response times to develop systems in place to continously meet customer service demands. 
 
 ## Project Goals
 
