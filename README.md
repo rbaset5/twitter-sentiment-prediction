@@ -93,18 +93,14 @@ Tweets labeled as positive make up approximately 20 percent of the target variab
 <br />
 <br />
 
-Once the text of a tweet is received, we want to create a model that predicts if the message is negative or positive so that we can automatically 
-distinguish between high and low priority messages and delegate accordingly.  
+Once the text of a tweet is received, we want to create a model that predicts if the message is negative or positive so that we can automatically distinguish between high and low priority messages and delegate accordingly.  
 
 Before we train a model, we need to perform pre-processing on the text and feature engineer  
 said data to properly feed to our ML model for interpretation. A later section explains the process taken in fuller detail. 
 
 ## Data 
 
-The data was scraped by CrowdFlower (now Figure Eight, a ML company) which includes all tweets and it's corresponding messages 
-addressed at US airlines in February, 2015. Human contributors then categorised each tweet according to 
-the sentiment (positive, negative) from a crowsource marketplace. The dataset is hosted on Kaggle, 
-https://www.kaggle.com/crowdflower/twitter-airline-sentiment. 
+The data was scraped by CrowdFlower (now Figure Eight, a ML company) which includes all tweets and it's corresponding messages addressed at US airlines in February, 2015. Human contributors then categorised each tweet according to the sentiment (positive, negative) from a crowsource marketplace. The dataset is hosted on Kaggle, https://www.kaggle.com/crowdflower/twitter-airline-sentiment. 
 
 ## EDA
 
