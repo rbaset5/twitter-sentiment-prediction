@@ -9,19 +9,19 @@
 
 ## Twitter Triage
 
-When it comes to manaing customer service interactions on Twitter, the platfrom can be unforgiving. If your reps aren't equipped to handle customer demand, or aren't sure how to communicate on Twitter, it may harm your customer experience and lead your brand to receive upset followers. 
+When it comes to managing customer service interactions on Twitter, the platform can be unforgiving. If your reps aren't equipped to handle customer demand, or aren't sure how to communicate on Twitter, it may harm your customer experience and lead your brand to receive upset followers. 
 
-When requests come in through Twitter, it’s important to have a plan to triage them. The brands that are thriving in social customer care on Twitter (Amazon, Buffer, Starbucks, UPS) have common charactersitics where you'll find their replies to be prompt, unique, signed, and helpful. 
+When requests come in through Twitter, it’s important to have a plan to triage them. The brands that are thriving in social customer care on Twitter (Amazon, Buffer, Starbucks, UPS) have common characteristics where you'll find their replies to be prompt, unique, signed, and helpful. 
 
 ## Project Scenario
 
-In any customer service scenario on Twitter, friendliness and personalisation are just as important as speed. Brands incorporating these practices into their Twitter customer service, often have positive results. 
+In any customer service scenario on Twitter, friendliness and personalization are just as important as speed. Brands incorporating these practices into their Twitter customer service, often have positive results. 
 
 With regard to speed, can we build a model that aids a team in decreasing the time needed to respond to an initial customer service message. We are using a dataset containing 14,000 customer service tweets labeled by emotional polarity data to speed response time for customer service tweets. 
 
-## Project Struture
+## Project Structure
 
-The data for this project is available in the following structore of the repo:
+The data for this project is available in the following structure of the repo:
 ```
 ├── _data
 │   ├── raw_data
@@ -75,7 +75,7 @@ If on the technical side, please check out:
 
 For some people Twitter is the first place they go to for customer service. It may be about problems, complaints they need addressed, questions answered, or saying Thank You for service and support. Twitter's research has found that users are most likely to use Twitter as a customer service channel for retail and travel. As many as 40% of those who recently used the platform for customer service had done some for retail; 33% for travel and 28% for telecoms[1]. 
 
-Twitter has found that 71% of Twitter users expect a brand to respond to their query within an hour of Tweeting. For most companies, this hasn't proven to be an issue. Twitter's study showed that 63% of users who Tweeted a brand about customer service had a response within an hour. Over a third of them had a response within 30 mins. It's imperative therfore for brands who don't have quick response times to develop systems in place to continously meet customer service demands. 
+Twitter has found that 71% of Twitter users expect a brand to respond to their query within an hour of Tweeting. For most companies, this hasn't proven to be an issue. Twitter's study showed that 63% of users who Tweeted a brand about customer service had a response within an hour. Over a third of them had a response within 30 mins. It's imperative therefore for brands who don't have quick response times to develop systems in place to continuously meet customer service demands. 
 
 ## Project Goals
 
@@ -96,11 +96,11 @@ Tweets labeled as positive make up approximately 20 percent of the target variab
 Once the text of a tweet is received, we want to create a model that predicts if the message is negative or positive so that we can automatically distinguish between high and low priority messages and delegate accordingly.  
 
 Before we train a model, we need to perform pre-processing on the text and feature engineer  
-said data to properly feed to our ML model for interpretation. A later section explains the process taken in fuller detail. 
+Said data to properly feed to our ML model for interpretation. A later section explains the process taken in fuller detail. 
 
 ## Data 
 
-The data was scraped by CrowdFlower (now Figure Eight, a ML company) which includes all tweets and it's corresponding messages addressed at US airlines in February, 2015. Human contributors then categorised each tweet according to the sentiment (positive, negative) from a crowsource marketplace. The dataset is hosted on Kaggle, https://www.kaggle.com/crowdflower/twitter-airline-sentiment. 
+The data was scraped by CrowdFlower (now Figure Eight, a ML company) which includes all tweets and its corresponding messages addressed at US airlines in February, 2015. Human contributors then categorized each tweet according to the sentiment (positive, negative) from a crowdsource marketplace. The dataset is hosted on Kaggle, https://www.kaggle.com/crowdflower/twitter-airline-sentiment. 
 
 ## EDA
 
@@ -108,7 +108,7 @@ The data was scraped by CrowdFlower (now Figure Eight, a ML company) which inclu
 - Missing values count
 - No outliers found
 - Low importance features: 
-    - `tweet_id`: no signifiance 
+    - `tweet_id`: no significance 
     - `airline_sentiment_gold`: unable to determine value.
     - `name`: no significance. 
     - `negativereason_gold`: unable to determine value.
@@ -120,14 +120,14 @@ The data was scraped by CrowdFlower (now Figure Eight, a ML company) which inclu
 
 ### Negative Reasons by Airline 
 
-The 'negative reasons' column of the dataset includes 10 different reasons of a label being labeled negative. If a labler labeled the tweet as being negative, they had the option of including a reason. Of the total 14k dataset, 5.4k messages include a negative reason. The negative reasons include: Bad flight, Can't tell, Customer service issue, Flight booking problems, Late flight, Lost luggage, Flight attendent complaints, cancelled flight, Damaged luggage, and longlines. 
+The 'negative reasons' column of the dataset includes 10 different reasons of a label being labeled negative. If a labeler labeled the tweet as being negative, they had the option of including a reason. Of the total 14k dataset, 5.4k messages include a negative reason. The negative reasons include: Bad flight, Can't tell, Customer service issue, Flight booking problems, Late flight, Lost luggage, Flight attendant complaints, cancelled flight, Damaged luggage, and longlines. 
 
 
 ![here](images/all_2_airline_sentiment_bar.png)
 
 #### Customer Service Issues
 
-Four out of the six airlines have customer service as their most labeled negative sentiment. Without knowing further reasoning, it's difficult to ascertain the various types of customer service issues. We see that American Airlines and US Airways follow similar trend where CS issues has the largest screw all other ailines. 
+Four out of the six airlines have customer service as their most labeled negative sentiment. Without knowing further reasoning, it's difficult to ascertain the various types of customer service issues. We see that American Airlines and US Airways follow similar trend where CS issues has the largest screw all other airlines. 
 
 #### Late Flight
 
@@ -148,7 +148,7 @@ Given that this is a classification problem, we have a number of algorithms we c
 - Random Forest
 - Gradient Boosting
 
-When doing feature engineering, we used both Bag of Words and TF-IDF. Bag of words counts how many times a word appears in a document or talliest the count. The words allow us to compare documents and guage the similarities for different applications. TF-IDF judges the topic of an article by the words it contains. Words are givent weight and measures relevance, not frequency. Word counts in other words, are replaced with TF-IDF scores across the dataset. 
+When doing feature engineering, we used both Bag of Words and TF-IDF. Bag of words counts how many times a word appears in a document or tallest the count. The words allow us to compare documents and gauge the similarities for different applications. TF-IDF judges the topic of an article by the words it contains. Words are given weight and measures relevance, not frequency. Word counts in other words, are replaced with TF-IDF scores across the dataset. 
 
 We tested both Bag of Words and TF-IDF for each model to determine which algorithm of the two performs best. In the next section below we display the results of our findings. 
 
