@@ -170,7 +170,7 @@ The combination of model and feature engineering algorithm that performs best is
 
 ### Next Step Future Work
 
-- Include neutral as a classification.
+- Resample dataset with the aim of balancing classifiers (under-sampling, random sampling, SMOTEing)
 - Adding new sentiment features for further understanding.
 - Implement as an email routing tool.
 - Continuous labeling of sentiment of tweets. 
