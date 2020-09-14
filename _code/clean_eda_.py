@@ -23,7 +23,7 @@ df = pd.read_csv('/Users/rashidbaset/Code/twitter-sentiment-prediction/_data/raw
 
 Key Terminology
 
-| Categfsfdory                       | Definition                                                       |
+| Category                       | Definition                                                       |
 | ------------------------------ | ---------------------------------------------------------------- |
 | 'tweet_id'                     | Negative/neutral/positive Airline sentiment confidence           |
 | 'airline_sentiment'            | Sentiment of tweet (target variable)                             |
@@ -105,6 +105,9 @@ df.isna().sum()
 na_counts = df.isna().sum()
 base_color = sb.color_palette()[0]
 sb.barplot(na_counts, na_counts.index.values, color=base_color)
+
+# Columns airline_sentiment_gold, negativereason_gold and tweet_coord all have missing values >90%. 
+
 # %% 
 ## Removing columns: For columns 'tweet_coord', 'negativereason_gold', 'airline_sentiment_gold', >90% of it's data is missing. Unable to determine the meaning or quantitative value of '_gold'.
 df.drop(columns=['tweet_coord', 'negativereason_gold', 'airline_sentiment_gold'], axis=1, inplace=True)
