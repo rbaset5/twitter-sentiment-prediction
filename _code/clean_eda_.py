@@ -4,7 +4,7 @@
 ### Cleaning & EDA Notebook 
 # %%
 from collections import Counter
-import plotly.express as px
+import plotly.express as pxn
 import numpy as np # linear algebra
 import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
 import matplotlib.pyplot as plt
@@ -18,6 +18,7 @@ import plotly.graph_objects as go
 # Allows full width row text in column
 pd.set_option('display.max_colwidth', -1)
 # %%
+#read in data
 df = pd.read_csv('/Users/rashidbaset/Code/twitter-sentiment-prediction/_data/raw-data/Tweets.csv')
 # %% [markdown]
 
@@ -52,12 +53,6 @@ Key Terminology
 | ------------ | -------------------------------------------------------------- | -------------------------- |
 |              | 'arline_sentiment', 'negativereason', 'airline_sentiment_gold' | 'airline', 'user_timezone' |
 |              |                                                                |                            |
-
-# # %% [markdown] 
-# 1. Negative, neutral, positive sentiments of airlines 
-# 2. Negative reasons of airlines in question and it's implications 
-# 3. Negative Reason Confidence and what this tells us
-# 4. Airline sentiment confidence and what this tells us
 
 # %%
 df.info()
