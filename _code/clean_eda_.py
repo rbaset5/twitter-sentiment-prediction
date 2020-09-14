@@ -107,7 +107,7 @@ base_color = sb.color_palette()[0]
 sb.barplot(na_counts, na_counts.index.values, color=base_color)
 
 # Columns airline_sentiment_gold, negativereason_gold and tweet_coord all have missing values >90%. 
-
+# Removing both columns representing 'gold' since unable to find value. 
 # %% 
 ## Removing columns: For columns 'tweet_coord', 'negativereason_gold', 'airline_sentiment_gold', >90% of it's data is missing. Unable to determine the meaning or quantitative value of '_gold'.
 df.drop(columns=['tweet_coord', 'negativereason_gold', 'airline_sentiment_gold'], axis=1, inplace=True)
