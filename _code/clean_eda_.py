@@ -88,10 +88,10 @@ for loc, label in zip(locs, labels):
 # %% [markdown]
 # Given that this problem will be turn into a classification problem, 
 # the skew to the right toward negative sentiment poses a class impbalance problem. 
-# Training a model on an imbalanced dataset will result in a higher accuracy score, with most of the instances as 'negative' sentiment, 
+# Training a model on an imbalanced dataset will result in a higher accuracy score, with most instances as 'negative' sentiment, 
 # where the final model will predict one class regardless of the data it's asked to predict. 
 
-# We won't be using accuracy as a metric as a result of it's misleadingness, and instead observe model performance
+# We won't be using accuracy as a metric as a result of this bias toward negative, and instead observe model performance
 # using a confusion matrix, and precision, recall, and f1 scores. Additonally, we will look at Cohen's kappa and ROC curves
 # to compare classification accuracy. 
 
@@ -118,6 +118,7 @@ df.loc[df['airline_sentiment'] == 'negative', ['tweet_id','airline_sentiment','t
 ### What 'Neutral' messages look like: 
 # %%
 df.loc[[12802,10417,4427], ['airline_sentiment', 'airline_sentiment_confidence', 'airline', 'name', 'text', 'user_timezone', 'tweet_created']]
+# Neutral messages 
 # %%
 ### What 'Positive' messages look like:
 df.loc[[4336, 14325, 998], ['airline_sentiment', 'airline_sentiment_confidence', 'airline', 'name', 'text', 'user_timezone', 'tweet_created']]
