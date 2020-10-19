@@ -5,3 +5,11 @@ This analysis helps us undetsand people in a respective domain and respons behin
 
 Air travel is the most convenient method of air travel for long distance. 
 
+There are many airline services and the competitive nature of industy and current events motivates airlines to attract customers. 
+
+A traveler may consider several points before selecting and airline. 
+
+- Airfare
+- Travel time 
+- Number of stoppages 
+
