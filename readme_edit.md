@@ -12,4 +12,9 @@ A traveler may consider several points before selecting and airline.
 - Airfare
 - Travel time 
 - Number of stoppages 
+- Number of baggages allowed 
+- Existing customer feedback 
 
+All airline service providers are workign in all these customer service areas to improve their facilities and in-flight comfort to extract customers. 
+
+Important to undrestand needs to comfort of customer ie. customer satisfaction during flight 
