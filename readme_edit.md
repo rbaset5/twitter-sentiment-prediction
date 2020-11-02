@@ -14,6 +14,7 @@ There are many airline services and the competitive nature of industy and curren
 A traveler may consider several points before selecting and airline. 
 
 - Airfare
+- this should be in line 3
 - Travel time 
 - Number of stoppages 
 - Stoppages indicate the width
