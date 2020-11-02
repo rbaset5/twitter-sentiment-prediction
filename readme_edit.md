@@ -16,6 +16,7 @@ A traveler may consider several points before selecting and airline.
 - Airfare
 - Travel time 
 - Number of stoppages 
+- Stoppages indicate the width
 - Number of baggages allowed 
 - Existing customer feedback 
 
