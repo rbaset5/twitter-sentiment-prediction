@@ -2,9 +2,9 @@
 
 The airline industry is a competitive market in the past 2 decades. Customer airlines still use traditioinal customer feedback forms which in turn can be time consuming and tedious. Twitter data can be used for competitive advantage around sentiment analysis of customers. 
 
-This dataset comprises of tweets for 6 major US airlines where we performed a multi-class sentiment analysis. 
+This dataset comprises of tweets for 6 major US airlines where we performed a multi-class classification and sentiment analysis. 
 
-This approach starts off with pre-processing techniques used to clean the tweets and then representing these tweets as vectors using a deep learning concept (Doc2vec) to do a phrase-level analysis. The analysis was carried out using 7 different classification strategies: Decision Tree, Random Forest, SVM, K-Nearest Neighbors, Logistic Regression, Gaussian Naïve Bayes and AdaBoost. The classifiers were trained using 80% of the data and tested using the remaining 20% data. The outcome of the test set is the tweet sentiment (positive/negative/neutral).
+This approach starts off with pre-processing techniques used to clean the tweets and then representing these tweets as vectors using a deep learning concept to do a phrase-level analysis using the Doc2Vec library. The analysis was carried out using 7 different classification strategies: Decision Tree, Random Forest, SVM, K-Nearest Neighbors, Logistic Regression, Gaussian Naïve Bayes and AdaBoost. The classifiers were trained using 80% of the data and tested using the remaining 20% data. The outcome of the test set is the tweet sentiment (positive/negative/neutral).
 
 Based  on the results obtained, the accuracies were calculated to draw a comparison between each classification approach and the overall sentiment count was visualized combining all six airlines.
 
