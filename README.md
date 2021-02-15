@@ -1,4 +1,4 @@
-# Summary
+### Summary
 
 The airline industry is a competitive market in the past 2 decades. Customer airlines still use traditioinal customer feedback forms which in turn can be time consuming and tedious. Twitter data can be used for competitive advantage around sentiment analysis of customers. 
 
@@ -8,7 +8,7 @@ This approach starts off with pre-processing techniques used to clean the tweets
 
 Based  on the results obtained, the accuracies were calculated to draw a comparison between each classification approach and the overall sentiment count was visualized combining all six airlines.
 
-# Business problem 
+### Business problem 
 
 Customer feedback is crucial to airline companies as it helps them in improving the quality of services and facilities provided to the customers. Sentiment analysis in airline industry is methodically done using traditional feedback methods that involve customer satistfaction questionares and forms. These procedures might seem quite simple on an overview but are very time consuiming and require a lot of manpower that comes with a cost in analyzing them. 
 
